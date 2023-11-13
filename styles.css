@@ -1,0 +1,279 @@
+/************************/
+/*        COLORS        */
+/************************/
+
+.primary {
+  background-color: #1a8fe3;
+}
+
+.text-primary {
+  color: #1a8fe3;
+}
+
+.secondary {
+  background-color: #35a7ff;
+}
+
+.text-secondary {
+  color: #35a7ff;
+}
+
+.dark {
+  background-color: #343a40;
+}
+
+.text-dark {
+  color: #343a40;
+}
+
+.medium-light {
+  background-color: #6c757d;
+}
+
+.text-medium-light {
+  color: #6c757d;
+}
+
+.light {
+  background-color: #adb5bd;
+}
+
+.text-light {
+  color: #adb5bd;
+}
+
+/* Buttons-Alerts-Info Colors */
+.warning {
+  background-color: #fea82f; 
+}
+
+.text-warning {
+  color: #fea82f;
+}
+
+.danger {
+  background-color: #ff2e00; 
+}
+
+.text-danger {
+  color: #ff2e00;
+}
+
+.success {
+  background-color: #85cb33; 
+}
+
+.text-success {
+  color: #85cb33;
+}
+
+.info {
+  background-color: #470ff4; 
+}
+
+.text-info {
+  color: #470ff4;
+}
+
+/************************/
+/*        FONTS         */
+/************************/
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+lead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+blockquote {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    font-weight: normal;
+}
+
+ul, ol, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/************************/
+/*       BUTTONS        */
+/************************/
+
+.btn-primary {
+    background-color: #1A8FE3; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+
+.btn-warning {
+    background-color: #FEA82F; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+.btn-danger {
+    background-color: #FF2E00; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.btn-info {
+    background-color: #470FF4; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.btn-success {
+    background-color: #85CB33; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.btn {
+    background-color: #6c757d; 
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-sm {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .btn-lg {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+
+/************************/
+/*        FORMS         */
+/************************/
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #6c757d; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #343a40; 
+}
+
+select,
+textarea {
+    border-color: #35a7ff; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    color: #343a40; 
+}
+
+/************************/
+/*        Cards         */
+/************************/
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    margin: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1a8fe3;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
